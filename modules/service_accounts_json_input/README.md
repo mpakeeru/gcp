@@ -4,7 +4,7 @@ This module creates multiple service accounts based on a JSON file input. The mo
 The module requires JSON file path as input variable. The JSON file should have the following elements.
 
 
-[
+'''[
     {
     "project_id":"YOURPROJECTID",
     "names":["YOUR-SERVICE-ACCOUNT-ID"],
