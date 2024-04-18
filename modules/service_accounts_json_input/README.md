@@ -25,13 +25,14 @@ The module requires JSON file path as input variable. The JSON file should have 
 ]
 ```
 JSON data tyes are as follows
+```json
     project_id    = string
     names = list(string)
     display_name  = string
     description   = string
     descriptions = list(string)
     project_roles         = list(string)
-
+```
 The email for the service accounts are available from the project outputs.
 
 # Usage Examples
