@@ -4,7 +4,7 @@ This module creates multiple service accounts based on a JSON file input. The mo
 The module requires JSON file path as input variable. The JSON file should have the following elements.
 
 
-'''json
+```json
 [
     {
     "project_id":"YOURPROJECTID",
@@ -23,7 +23,7 @@ The module requires JSON file path as input variable. The JSON file should have 
     "project_roles":["Roles"]
     }
 ]
-'''
+```
 JSON data tyes are as follows
     project_id    = string
     names = list(string)
